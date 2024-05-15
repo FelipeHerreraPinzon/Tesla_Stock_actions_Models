@@ -8,19 +8,21 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <meta name=ProgId content=Excel.Sheet>
 <meta name=Generator content="Microsoft Excel 15">
-<link rel=File-List href="Modelos1_archivos/filelist.xml">
+<link rel=File-List href="Modelos_Tesla_Stock_archivos/filelist.xml">
 <![if !supportTabStrip]>
-<link id="shLink" href="Modelos1_archivos/sheet001.htm">
-<link id="shLink" href="Modelos1_archivos/sheet002.htm">
-<link id="shLink" href="Modelos1_archivos/sheet003.htm">
-<link id="shLink" href="Modelos1_archivos/sheet004.htm">
-<link id="shLink" href="Modelos1_archivos/sheet005.htm">
+<link id="shLink" href="Modelos_Tesla_Stock_archivos/sheet001.htm">
+<link id="shLink" href="Modelos_Tesla_Stock_archivos/sheet002.htm">
+<link id="shLink" href="Modelos_Tesla_Stock_archivos/sheet003.htm">
+<link id="shLink" href="Modelos_Tesla_Stock_archivos/sheet004.htm">
+<link id="shLink" href="Modelos_Tesla_Stock_archivos/sheet005.htm">
+<link id="shLink" href="Modelos_Tesla_Stock_archivos/sheet006.htm">
+<link id="shLink" href="Modelos_Tesla_Stock_archivos/sheet007.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=5;
+ var c_lTabs=7;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "ORIGINAL_db";
@@ -28,6 +30,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
  c_rgszSh[2] = "Modelo_Lineal";
  c_rgszSh[3] = "Modelo_Cuadrático";
  c_rgszSh[4] = "Modelo_Logatítmico";
+ c_rgszSh[5] = "Modelo_Cúbico";
+ c_rgszSh[6] = "Modelo_Exponencial";
 
 
 
@@ -57,7 +61,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[3].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[6].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -306,32 +310,40 @@ function fnSetActiveSheet(iSh)
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
     <x:Name>ORIGINAL_db</x:Name>
-    <x:WorksheetSource HRef="Modelos1_archivos/sheet001.htm"/>
+    <x:WorksheetSource HRef="Modelos_Tesla_Stock_archivos/sheet001.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
     <x:Name>TESLA.csv</x:Name>
-    <x:WorksheetSource HRef="Modelos1_archivos/sheet002.htm"/>
+    <x:WorksheetSource HRef="Modelos_Tesla_Stock_archivos/sheet002.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
     <x:Name>Modelo_Lineal</x:Name>
-    <x:WorksheetSource HRef="Modelos1_archivos/sheet003.htm"/>
+    <x:WorksheetSource HRef="Modelos_Tesla_Stock_archivos/sheet003.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
     <x:Name>Modelo_Cuadrático</x:Name>
-    <x:WorksheetSource HRef="Modelos1_archivos/sheet004.htm"/>
+    <x:WorksheetSource HRef="Modelos_Tesla_Stock_archivos/sheet004.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
     <x:Name>Modelo_Logatítmico</x:Name>
-    <x:WorksheetSource HRef="Modelos1_archivos/sheet005.htm"/>
+    <x:WorksheetSource HRef="Modelos_Tesla_Stock_archivos/sheet005.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Modelo_Cúbico</x:Name>
+    <x:WorksheetSource HRef="Modelos_Tesla_Stock_archivos/sheet006.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Modelo_Exponencial</x:Name>
+    <x:WorksheetSource HRef="Modelos_Tesla_Stock_archivos/sheet007.htm"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
-  <x:Stylesheet HRef="Modelos1_archivos/stylesheet.css"/>
-  <x:WindowHeight>7185</x:WindowHeight>
-  <x:WindowWidth>20490</x:WindowWidth>
+  <x:Stylesheet HRef="Modelos_Tesla_Stock_archivos/stylesheet.css"/>
+  <x:WindowHeight>4035</x:WindowHeight>
+  <x:WindowWidth>15135</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>32767</x:WindowTopY>
-  <x:ActiveSheet>3</x:ActiveSheet>
-  <x:FirstVisibleSheet>4</x:FirstVisibleSheet>
+  <x:ActiveSheet>6</x:ActiveSheet>
+  <x:FirstVisibleSheet>6</x:FirstVisibleSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -339,8 +351,8 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="Modelos1_archivos/sheet004.htm" name="frSheet">
- <frame src="Modelos1_archivos/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
+ <frame src="Modelos_Tesla_Stock_archivos/sheet007.htm" name="frSheet">
+ <frame src="Modelos_Tesla_Stock_archivos/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
    <p>Esta página utiliza marcos que su explorador no admite.</p>
